@@ -158,19 +158,25 @@ cv2.destroyAllWindow
 
 ```
 ## Output:
+
 ### i) BGR and RGB to HSV and GRAY:
+
 ![Output](https://github.com/naramala-niharika/Color-Conversion/blob/main/G1.PNG?raw=true)
 
 ### ii) HSV to RGB and BGR:
+
 ![Output](https://github.com/naramala-niharika/Color-Conversion/blob/main/G2.PNG?raw=true)
 
 ### iii) RGB and BGR to YCrCb:
+
 ![Output](https://github.com/naramala-niharika/Color-Conversion/blob/main/G3.PNG?raw=true)
 
 ### iv) Split and merge RGB Image:
+
 ![Output](https://github.com/naramala-niharika/Color-Conversion/blob/main/G4.PNG?raw=true)
 
 ### v) Split and merge HSV Image:
+
 ![Output](https://github.com/naramala-niharika/Color-Conversion/blob/main/G5.PNG?raw=true)
 
 
