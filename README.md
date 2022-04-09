@@ -22,7 +22,9 @@ Show the image stored in the given variable.
 ## Program:
 ```python
 # Developed By:Naramala Niharika
+
 # Register Number:212221240031
+
 # i) Convert BGR and RGB to HSV and GRAY:
 ```
 import cv2
@@ -53,11 +55,8 @@ cv2.imshow('RGB2GRAY',gray_image1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-
-
-
-
 # ii)Convert HSV to RGB and BGR:
+
 ```
 import cv2
 
@@ -76,11 +75,9 @@ cv2.imshow('RGB2HSV',BGRImage)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-
-
-
-
+```
 # iii)Convert RGB and BGR to YCrCb:
+
 ```
 import cv2
 
