@@ -30,11 +30,13 @@ Show the image stored in the given variable.
 import cv2
 
 shaheer_color_image = cv2.imread('shaheer.jpg')
+
 cv2.imshow('original image',shaheer_color_image)
 
 #BGR2HSV
 
 hsv_image = cv2.cvtColor(shaheer_color_image,cv2.COLOR_BGR2HSV)
+
 cv2.imshow('BGR2HSV',hsv_image)
 
 #RGB2HSV
@@ -45,14 +47,17 @@ cv2.imshow('RGB2HSV',hsv_image1)
 #BGR2Gray
 
 gray_image = cv2.cvtColor(shaheer_color_image,cv2.COLOR_BGR2GRAY)
+
 cv2.imshow('BGR2GRAY',gray_image)
 
 #R
 
 gray_image1 = cv2.cvtColor(shaheer_color_image,cv2.COLOR_RGB2GRAY)
+
 cv2.imshow('RGB2GRAY',gray_image1)
 
 cv2.waitKey(0)
+
 cv2.destroyAllWindows()
 
 # ii)Convert HSV to RGB and BGR:
@@ -73,6 +78,7 @@ BGRImage=cv2.cvtColor(houseHSVImage,cv2.COLOR_HSV2BGR)
 cv2.imshow('RGB2HSV',BGRImage)
 
 cv2.waitKey(0)
+
 cv2.destroyAllWindows()
 
 ```
@@ -94,6 +100,7 @@ YCrCb_image1 = cv2.cvtColor(houseImage, cv2.COLOR_BGR2YCrCb)
 cv2.imshow('RGB2HSV',YCrCb_image1)
 
 cv2.waitKey(0)
+
 cv2.destroyAllWindows()
 
 
@@ -122,6 +129,7 @@ mergeBgr = cv2.merge((blue,green,red))
 cv2.imshow('Merged BGR image',mergeBgr)
 
 cv2.waitKey(0)
+
 cv2.destroyAllWindows()
 
 
@@ -148,6 +156,7 @@ mergedHSV = cv2.merge((h,s,v))
 cv2.imshow('Merged HSV Image',mergedHSV)
 
 cv2.waitKey(0)
+
 cv2.destroyAllWindow
 
 
